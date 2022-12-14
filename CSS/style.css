@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Comic+Neue:ital,wght@0,400;1,700&family=Roboto:wght@300;400;500&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Comic Neue', cursive;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+.logo{
+    width: 75px;
+}
