@@ -17,7 +17,7 @@
   <header class="d-flex justify-content-between bg-dark text-white">
     
     <div class="logo">
-      <img src="IMG/logo.jpg" alt="colder">
+      <a href="#"><img src="IMG/logo.jpg" alt="colder"></a>
     </div>
     <h1 class="text-center">Winter Activities</h1>
     
@@ -25,17 +25,13 @@
     
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0"
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#more-activities">More Activities</a>
             </li>
           </ul>
         </div>
@@ -109,7 +105,8 @@
   <!--carousel ends-->
   
   <!--cards/thumbnails start-->
-  <h1 class="text-center mt-5">More Activities</h1>
+
+  <h1 id="more-activities" class="text-center mt-5">More Activities</h1>
   <div class="cards d-flex flex-column flex-md-row">
     <div class="card text-dark">
       <img class="card-img-top p-2" src="IMG/pexels-sebastian-arie-voortman-card.jpg"  alt="snow mobile">
@@ -138,7 +135,7 @@
   <!--form starts-->
   <div class="container mt-5">
     <h2 class="text-center">Contact Form</h2>
-    <form action="">
+    <form action="#">
       <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Name</label>
         <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Full Name">
