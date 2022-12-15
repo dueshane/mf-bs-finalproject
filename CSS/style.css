@@ -15,3 +15,14 @@ img{
 .logo{
     width: 75px;
 }
+
+/* styling the icons */
+
+.fa-brands {
+    color: black;
+    background-color: red;
+}
+
+.fa-brands:hover{
+    color: whitesmoke;
+}
